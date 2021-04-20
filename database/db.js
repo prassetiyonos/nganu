@@ -5,7 +5,7 @@ var __path = process.cwd(),
 // Connection URL
 var url = 'https://praz-api.herokuapp.com/';
 try {
-if(url == 'https://praz-api.herokuapp.com/') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == '') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
