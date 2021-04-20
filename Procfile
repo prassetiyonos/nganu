@@ -1,1 +1,2 @@
-worker: npm install zahir-api
+worker: npm fix audit
+worker: node index
