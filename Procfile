@@ -1,1 +1,1 @@
-worker: npm audit fixs
+worker: npm audit fix
